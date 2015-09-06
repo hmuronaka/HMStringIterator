@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D64BDF0E1B9C5A19002FB2C3 /* HMStringIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = D64BDF0D1B9C5A19002FB2C3 /* HMStringIterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D64BDF0E1B9C5A19002FB2C3 /* HMStringIteratorLib.h in Headers */ = {isa = PBXBuildFile; fileRef = D64BDF0D1B9C5A19002FB2C3 /* HMStringIteratorLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D64BDF141B9C5A19002FB2C3 /* HMStringIterator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64BDF081B9C5A19002FB2C3 /* HMStringIterator.framework */; };
-		D64BDF1B1B9C5A19002FB2C3 /* HMStringIteratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BDF1A1B9C5A19002FB2C3 /* HMStringIteratorTests.m */; };
+		D64BDF261B9C5A46002FB2C3 /* HMStringIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = D64BDF241B9C5A46002FB2C3 /* HMStringIterator.h */; };
+		D64BDF271B9C5A46002FB2C3 /* HMStringIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BDF251B9C5A46002FB2C3 /* HMStringIterator.m */; };
+		D64BDF2B1B9C6F14002FB2C3 /* HMStringReverseIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = D64BDF291B9C6F14002FB2C3 /* HMStringReverseIterator.h */; };
+		D64BDF2C1B9C6F14002FB2C3 /* HMStringReverseIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BDF2A1B9C6F14002FB2C3 /* HMStringReverseIterator.m */; };
+		D64BDF2E1B9C70B1002FB2C3 /* HMStringIteratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BDF2D1B9C70B1002FB2C3 /* HMStringIteratorTests.m */; };
+		D64BDF2F1B9C7155002FB2C3 /* HMStringIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BDF251B9C5A46002FB2C3 /* HMStringIterator.m */; };
+		D64BDF301B9C7155002FB2C3 /* HMStringReverseIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BDF2A1B9C6F14002FB2C3 /* HMStringReverseIterator.m */; };
+		D64BDF321B9C745F002FB2C3 /* HMStringReverseIteratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BDF311B9C745F002FB2C3 /* HMStringReverseIteratorTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,10 +32,16 @@
 /* Begin PBXFileReference section */
 		D64BDF081B9C5A19002FB2C3 /* HMStringIterator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMStringIterator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D64BDF0C1B9C5A19002FB2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D64BDF0D1B9C5A19002FB2C3 /* HMStringIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMStringIterator.h; sourceTree = "<group>"; };
+		D64BDF0D1B9C5A19002FB2C3 /* HMStringIteratorLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMStringIteratorLib.h; sourceTree = "<group>"; };
 		D64BDF131B9C5A19002FB2C3 /* HMStringIteratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMStringIteratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D64BDF191B9C5A19002FB2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D64BDF1A1B9C5A19002FB2C3 /* HMStringIteratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMStringIteratorTests.m; sourceTree = "<group>"; };
+		D64BDF241B9C5A46002FB2C3 /* HMStringIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMStringIterator.h; path = Class/HMStringIterator.h; sourceTree = "<group>"; };
+		D64BDF251B9C5A46002FB2C3 /* HMStringIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMStringIterator.m; path = Class/HMStringIterator.m; sourceTree = "<group>"; };
+		D64BDF281B9C674F002FB2C3 /* HMStringIterable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HMStringIterable.h; path = Class/HMStringIterable.h; sourceTree = "<group>"; };
+		D64BDF291B9C6F14002FB2C3 /* HMStringReverseIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMStringReverseIterator.h; path = Class/HMStringReverseIterator.h; sourceTree = "<group>"; };
+		D64BDF2A1B9C6F14002FB2C3 /* HMStringReverseIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMStringReverseIterator.m; path = Class/HMStringReverseIterator.m; sourceTree = "<group>"; };
+		D64BDF2D1B9C70B1002FB2C3 /* HMStringIteratorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMStringIteratorTests.m; sourceTree = "<group>"; };
+		D64BDF311B9C745F002FB2C3 /* HMStringReverseIteratorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMStringReverseIteratorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +66,7 @@
 		D64BDEFE1B9C5A18002FB2C3 = {
 			isa = PBXGroup;
 			children = (
-				D64BDF0A1B9C5A19002FB2C3 /* HMStringIterator */,
+				D64BDF0A1B9C5A19002FB2C3 /* HMStringIteratorLib */,
 				D64BDF171B9C5A19002FB2C3 /* HMStringIteratorTests */,
 				D64BDF091B9C5A19002FB2C3 /* Products */,
 			);
@@ -68,12 +81,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D64BDF0A1B9C5A19002FB2C3 /* HMStringIterator */ = {
+		D64BDF0A1B9C5A19002FB2C3 /* HMStringIteratorLib */ = {
 			isa = PBXGroup;
 			children = (
-				D64BDF0D1B9C5A19002FB2C3 /* HMStringIterator.h */,
+				D64BDF0D1B9C5A19002FB2C3 /* HMStringIteratorLib.h */,
 				D64BDF0B1B9C5A19002FB2C3 /* Supporting Files */,
+				D64BDF241B9C5A46002FB2C3 /* HMStringIterator.h */,
+				D64BDF251B9C5A46002FB2C3 /* HMStringIterator.m */,
+				D64BDF281B9C674F002FB2C3 /* HMStringIterable.h */,
+				D64BDF291B9C6F14002FB2C3 /* HMStringReverseIterator.h */,
+				D64BDF2A1B9C6F14002FB2C3 /* HMStringReverseIterator.m */,
 			);
+			name = HMStringIteratorLib;
 			path = HMStringIterator;
 			sourceTree = "<group>";
 		};
@@ -88,8 +107,9 @@
 		D64BDF171B9C5A19002FB2C3 /* HMStringIteratorTests */ = {
 			isa = PBXGroup;
 			children = (
-				D64BDF1A1B9C5A19002FB2C3 /* HMStringIteratorTests.m */,
 				D64BDF181B9C5A19002FB2C3 /* Supporting Files */,
+				D64BDF2D1B9C70B1002FB2C3 /* HMStringIteratorTests.m */,
+				D64BDF311B9C745F002FB2C3 /* HMStringReverseIteratorTests.m */,
 			);
 			path = HMStringIteratorTests;
 			sourceTree = "<group>";
@@ -109,7 +129,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64BDF0E1B9C5A19002FB2C3 /* HMStringIterator.h in Headers */,
+				D64BDF2B1B9C6F14002FB2C3 /* HMStringReverseIterator.h in Headers */,
+				D64BDF261B9C5A46002FB2C3 /* HMStringIterator.h in Headers */,
+				D64BDF0E1B9C5A19002FB2C3 /* HMStringIteratorLib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64BDF2C1B9C6F14002FB2C3 /* HMStringReverseIterator.m in Sources */,
+				D64BDF271B9C5A46002FB2C3 /* HMStringIterator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64BDF1B1B9C5A19002FB2C3 /* HMStringIteratorTests.m in Sources */,
+				D64BDF301B9C7155002FB2C3 /* HMStringReverseIterator.m in Sources */,
+				D64BDF2E1B9C70B1002FB2C3 /* HMStringIteratorTests.m in Sources */,
+				D64BDF321B9C745F002FB2C3 /* HMStringReverseIteratorTests.m in Sources */,
+				D64BDF2F1B9C7155002FB2C3 /* HMStringIterator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +356,7 @@
 				INFOPLIST_FILE = HMStringIterator/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HMStringIterator;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -344,7 +371,7 @@
 				INFOPLIST_FILE = HMStringIterator/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HMStringIterator;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -362,7 +389,7 @@
 				);
 				INFOPLIST_FILE = HMStringIteratorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HMStringIteratorTests;
 			};
 			name = Debug;
 		};
@@ -375,7 +402,7 @@
 				);
 				INFOPLIST_FILE = HMStringIteratorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HMStringIteratorTests;
 			};
 			name = Release;
 		};

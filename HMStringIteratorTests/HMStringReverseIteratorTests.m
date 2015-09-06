@@ -1,19 +1,20 @@
 //
-//  HMStringIteratorTests.m
-//  HMStringIterator
+//  HMStringReverseIteratorTests.m
+//  HMStringIteratorLib
 //
 //  Created by Muronaka Hiroaki on 2015/09/06.
 //  Copyright (c) 2015年 Muronaka Hiroaki. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import "HMStringIterator.h"
+#import "HMStringReverseIterator.h"
 
-@interface HMStringIteratorTests : XCTestCase
+@interface HMStringReverseIteratorTests : XCTestCase
 
 @end
 
-@implementation HMStringIteratorTests
+@implementation HMStringReverseIteratorTests
 
 - (void)setUp {
     [super setUp];
@@ -27,13 +28,13 @@
 
 - (void)testIterator {
     // This is an example of a functional test case.
-    HMStringIterator* iterator = [[HMStringIterator alloc] initWithString:@"abc"];
+    HMStringReverseIterator* iterator = [[HMStringReverseIterator alloc] initWithString:@"abc"];
     
     XCTAssertEqual(iterator.isEnd, NO);
     [iterator nextCharacter];
     XCTAssertEqual(iterator.isEnd, NO);
-    XCTAssertEqual(iterator.character, 'a');
-    XCTAssertEqual(iterator.position, 0);
+    XCTAssertEqual(iterator.character, 'c');
+    XCTAssertEqual(iterator.position, 2);
     
     [iterator nextCharacter];
     XCTAssertEqual(iterator.isEnd, NO);
@@ -42,8 +43,8 @@
     
     [iterator nextCharacter];
     XCTAssertEqual(iterator.isEnd, YES);
-    XCTAssertEqual(iterator.character, 'c');
-    XCTAssertEqual(iterator.position, 2);
+    XCTAssertEqual(iterator.character, 'a');
+    XCTAssertEqual(iterator.position, 0);
     
     [iterator nextCharacter];
     XCTAssertEqual(iterator.isEnd, YES);
@@ -52,7 +53,7 @@
 
 -(void)testIteratorWithPosition {
     // This is an example of a functional test case.
-    HMStringIterator* iterator = [[HMStringIterator alloc] initWithString:@"abc" position:1];
+    HMStringReverseIterator* iterator = [[HMStringReverseIterator alloc] initWithString:@"abc" position:1];
     
     XCTAssertEqual(iterator.isEnd, NO);
     [iterator nextCharacter];
@@ -62,13 +63,17 @@
     
     [iterator nextCharacter];
     XCTAssertEqual(iterator.isEnd, YES);
-    XCTAssertEqual(iterator.character, 'c');
-    XCTAssertEqual(iterator.position, 2);
+    XCTAssertEqual(iterator.character, 'a');
+    XCTAssertEqual(iterator.position, 0);
     
     [iterator nextCharacter];
     XCTAssertEqual(iterator.isEnd, YES);
 }
 
+- (void)testExample {
+    // This is an example of a functional test case.
+    XCTAssert(YES, @"Pass");
+}
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
