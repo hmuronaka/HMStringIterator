@@ -1,5 +1,7 @@
 # HMStringIterator
 
+[![Build Status](https://travis-ci.org/hmuronaka/HMStringIterator.svg)](https://travis-ci.org/hmuronaka/HMStringIterator)
+
 ## Iterator
 
 ```obj-c
