@@ -390,6 +390,7 @@
 				INFOPLIST_FILE = HMStringIteratorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = HMStringIteratorTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMStringIterator.app/HMStringIterator";
 			};
 			name = Debug;
 		};
@@ -403,6 +404,7 @@
 				INFOPLIST_FILE = HMStringIteratorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = HMStringIteratorTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMStringIterator.app/HMStringIterator";
 			};
 			name = Release;
 		};
