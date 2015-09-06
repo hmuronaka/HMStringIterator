@@ -129,9 +129,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64BDF2B1B9C6F14002FB2C3 /* HMStringReverseIterator.h in Headers */,
-				D64BDF261B9C5A46002FB2C3 /* HMStringIterator.h in Headers */,
 				D64BDF0E1B9C5A19002FB2C3 /* HMStringIteratorLib.h in Headers */,
+				D64BDF261B9C5A46002FB2C3 /* HMStringIterator.h in Headers */,
+				D64BDF2B1B9C6F14002FB2C3 /* HMStringReverseIterator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +379,7 @@
 		D64BDF221B9C5A19002FB2C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				BUNDLE_LOADER = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -398,7 +398,7 @@
 		D64BDF231B9C5A19002FB2C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				BUNDLE_LOADER = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
