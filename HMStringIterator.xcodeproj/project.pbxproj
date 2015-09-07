@@ -379,7 +379,6 @@
 		D64BDF221B9C5A19002FB2C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -391,14 +390,12 @@
 				INFOPLIST_FILE = HMStringIteratorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = HMStringIteratorTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMStringIterator.framework/HMStringIterator";
 			};
 			name = Debug;
 		};
 		D64BDF231B9C5A19002FB2C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -406,7 +403,6 @@
 				INFOPLIST_FILE = HMStringIteratorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = HMStringIteratorTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMStringIterator.framework/HMStringIterator";
 			};
 			name = Release;
 		};
