@@ -16,4 +16,6 @@ FOUNDATION_EXPORT const unsigned char HMStringIteratorVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <HMStringIterator/PublicHeader.h>
 
-
+#import <HMStringIterator/HMStringIterator.h>
+#import <HMStringIterator/HMStringIterable.h>
+#import <HMStringIterator/HMStringReverseIterator.h>

@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D62B01371B9DD36900E5E1E4 /* HMStringIterable.h in Headers */ = {isa = PBXBuildFile; fileRef = D64BDF281B9C674F002FB2C3 /* HMStringIterable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D64BDF0E1B9C5A19002FB2C3 /* HMStringIteratorLib.h in Headers */ = {isa = PBXBuildFile; fileRef = D64BDF0D1B9C5A19002FB2C3 /* HMStringIteratorLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D64BDF141B9C5A19002FB2C3 /* HMStringIterator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64BDF081B9C5A19002FB2C3 /* HMStringIterator.framework */; };
-		D64BDF261B9C5A46002FB2C3 /* HMStringIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = D64BDF241B9C5A46002FB2C3 /* HMStringIterator.h */; };
+		D64BDF261B9C5A46002FB2C3 /* HMStringIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = D64BDF241B9C5A46002FB2C3 /* HMStringIterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D64BDF271B9C5A46002FB2C3 /* HMStringIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BDF251B9C5A46002FB2C3 /* HMStringIterator.m */; };
-		D64BDF2B1B9C6F14002FB2C3 /* HMStringReverseIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = D64BDF291B9C6F14002FB2C3 /* HMStringReverseIterator.h */; };
+		D64BDF2B1B9C6F14002FB2C3 /* HMStringReverseIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = D64BDF291B9C6F14002FB2C3 /* HMStringReverseIterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D64BDF2C1B9C6F14002FB2C3 /* HMStringReverseIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BDF2A1B9C6F14002FB2C3 /* HMStringReverseIterator.m */; };
 		D64BDF2E1B9C70B1002FB2C3 /* HMStringIteratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BDF2D1B9C70B1002FB2C3 /* HMStringIteratorTests.m */; };
 		D64BDF2F1B9C7155002FB2C3 /* HMStringIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BDF251B9C5A46002FB2C3 /* HMStringIterator.m */; };
@@ -130,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D64BDF0E1B9C5A19002FB2C3 /* HMStringIteratorLib.h in Headers */,
+				D62B01371B9DD36900E5E1E4 /* HMStringIterable.h in Headers */,
 				D64BDF261B9C5A46002FB2C3 /* HMStringIterator.h in Headers */,
 				D64BDF2B1B9C6F14002FB2C3 /* HMStringReverseIterator.h in Headers */,
 			);
