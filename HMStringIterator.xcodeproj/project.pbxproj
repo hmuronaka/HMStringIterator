@@ -391,7 +391,7 @@
 				INFOPLIST_FILE = HMStringIteratorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = HMStringIteratorTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMStringIterator.app/HMStringIterator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMStringIterator.framework/HMStringIterator";
 			};
 			name = Debug;
 		};
@@ -406,7 +406,7 @@
 				INFOPLIST_FILE = HMStringIteratorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = HMStringIteratorTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMStringIterator.app/HMStringIterator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMStringIterator.framework/HMStringIterator";
 			};
 			name = Release;
 		};
@@ -429,6 +429,7 @@
 				D64BDF201B9C5A19002FB2C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D64BDF211B9C5A19002FB2C3 /* Build configuration list for PBXNativeTarget "HMStringIteratorTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +438,7 @@
 				D64BDF231B9C5A19002FB2C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
