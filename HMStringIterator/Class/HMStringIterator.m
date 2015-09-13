@@ -12,12 +12,13 @@
 @interface HMStringIterator()
 
 @property(nonatomic, assign) NSUInteger nextPosition;
-@property(nonatomic, assign) NSUInteger position;
 @property(nonatomic, assign) unichar character;
+@property(nonatomic, assign) NSUInteger position;
 
 @end
 
 @implementation HMStringIterator
+
 
 -(instancetype)initWithString:(NSString*)string {
     self = [self initWithString:string position:0];
@@ -50,8 +51,27 @@
     ++self.nextPosition;
 }
 
+-(void)prevCharacter {
+    
+    if( [self hm_isFirst:self.position - 1] ) {
+        return;
+    }
+    self.nextPosition = self.position - 1;
+    self.character = [self.string characterAtIndex:self.nextPosition];
+    self.position = self.nextPosition;
+    --self.nextPosition;
+}
+
 -(BOOL)isEnd {
     return (self.nextPosition >= self.string.length);
+}
+
+-(BOOL)isFirst {
+    return [self hm_isFirst:self.nextPosition];
+}
+
+-(BOOL)hm_isFirst:(NSUInteger)index {
+    return (index == (NSUInteger)-1);
 }
 
 -(id<HMStringIterable>)reverseIterator {

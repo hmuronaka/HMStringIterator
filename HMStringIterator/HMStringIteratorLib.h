@@ -18,4 +18,4 @@ FOUNDATION_EXPORT const unsigned char HMStringIteratorVersionString[];
 
 #import <HMStringIterator/HMStringIterator.h>
 #import <HMStringIterator/HMStringIterable.h>
-#import <HMStringIterator/HMStringReverseIterator.h>
+//#import <HMStringIterator/HMStringReverseIterator.h>

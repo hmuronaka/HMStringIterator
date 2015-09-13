@@ -10,11 +10,13 @@
 @protocol HMStringIterable
 
 @property(nonatomic, readonly) BOOL         isEnd;
+@property(nonatomic, readonly) BOOL         isFirst;
 @property(nonatomic, readonly) unichar      character;
 // end of string is NSNotFound
 @property(nonatomic, readonly) NSUInteger   position;
 
 -(void)nextCharacter;
+-(void)prevCharacter;
 -(id<HMStringIterable>)reverseIterator;
 
 @end

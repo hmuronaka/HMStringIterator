@@ -69,6 +69,23 @@
     XCTAssertEqual(iterator.isEnd, YES);
 }
 
+-(void)testIteratorWithPrev {
+    HMStringIterator* iterator = [[HMStringIterator alloc] initWithString:@"abc"];
+    
+    [iterator nextCharacter]; // a
+    XCTAssertFalse(iterator.isFirst);
+    [iterator nextCharacter]; // b
+    XCTAssertFalse(iterator.isFirst);
+    
+    [iterator prevCharacter];
+    XCTAssertEqual(iterator.character, 'a');
+    XCTAssertTrue(iterator.isFirst);
+    
+    [iterator prevCharacter];
+    XCTAssertEqual(iterator.character, 'a');
+    XCTAssertTrue(iterator.isFirst);
+}
+
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.

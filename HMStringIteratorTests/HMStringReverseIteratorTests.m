@@ -70,6 +70,27 @@
     XCTAssertEqual(iterator.isEnd, YES);
 }
 
+-(void)testIteratorWithPrev {
+    HMStringReverseIterator* iterator = [[HMStringReverseIterator alloc] initWithString:@"abc"];
+    XCTAssertFalse(iterator.isFirst);
+    
+    [iterator nextCharacter]; // c
+    XCTAssertFalse(iterator.isFirst);
+    [iterator nextCharacter]; // b
+    XCTAssertFalse(iterator.isFirst);
+    
+    [iterator prevCharacter]; // c
+    XCTAssertEqual(iterator.character, 'c');
+    XCTAssertTrue(iterator.isFirst);
+    
+    [iterator prevCharacter]; // c
+    XCTAssertEqual(iterator.character, 'c');
+    XCTAssertTrue(iterator.isFirst);
+    
+    
+    
+}
+
 - (void)testExample {
     // This is an example of a functional test case.
     XCTAssert(YES, @"Pass");
